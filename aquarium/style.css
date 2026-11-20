@@ -1,0 +1,99 @@
+#shark{
+    left:100px; top:400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+#ng1{
+    left:50px; top:50px;
+    position: absolute;
+    animation-name: D1;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation:D1 30s linear infinite;
+}
+#ng2{
+    left:900px; top:400px;
+    position: absolute;
+    animation-name: D2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#ng3
+{
+    left:600px; top:250px;
+    position: absolute;
+    animation-name: D3;
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#cavang{
+    left:400px; top:150px;
+    position: absolute;
+    animation-name: C1;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#rua{
+    position:absolute;
+    width:80px;
+    animation-name:R1;
+    animation-duration:50s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+}
+#bong1 {
+    position: absolute;
+    left: 75px; /* Chỉnh tăng/giảm số này để khớp đúng miệng thợ lặn */
+    top: 15px;  /* Chỉnh tăng/giảm số này để khớp độ cao của miệng */
+    animation: bubble 2.5s ease-out infinite;
+}
+.top-controls {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+}
+
+.top-controls button {
+    padding: 8px 14px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.top-controls button:hover {
+    background-color: #d0f0fd;
+}
+.top-controls .btn-back {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 14px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 13.33px;
+}
+
+.top-controls .btn-back:hover {
+    background-color: #d0f0fd;
+}

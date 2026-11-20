@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f5;
+    color: #222;
+    padding: 30px 15px;
+}
+
+/* Nút quay về trang nộp bài */
+.back-home {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #1e293b;
+    border: 2px solid #1e293b;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 13.5px;
+    z-index: 100;
+}
+
+.back-home:hover {
+    background-color: #e0f2fe;
+}
+
+/* Khung CV 2 cột: 40% trái - 60% phải */
+.cv-container {
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    min-height: 1000px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+}
+
+.left-col {
+    width: 40%;
+    background-color: #1f2937;
+    color: #f3f4f6;
+    padding: 30px 24px;
+}
+
+.right-col {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 36px 32px;
+}
+
+/* Ảnh đại diện */
+.avatar-box {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.avatar-box img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    background-color: #374151;
+}
+
+/* Các mục cột trái */
+.cv-section {
+    margin-bottom: 26px;
+}
+
+.cv-section h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #38bdf8;
+    border-bottom: 1px solid #374151;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.info-list {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.info-list li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.info-list i {
+    color: #38bdf8;
+    width: 18px;
+    margin-right: 6px;
+}
+
+.about-text {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #d1d5db;
+}
+
+/* Thanh kỹ năng */
+.skill-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.bar {
+    height: 8px;
+    background-color: #374151;
+    border-radius: 4px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background-color: #38bdf8;
+    border-radius: 4px;
+}
+
+/* Sở thích & tham chiếu */
+.tag-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.ref-item {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: #e5e7eb;
+}
+
+/* Phần đầu & nội dung cột phải */
+.cv-header {
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+}
+
+.cv-header h1 {
+    font-size: 30px;
+    color: #111827;
+    letter-spacing: 1px;
+}
+
+.job-title {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0284c7;
+    letter-spacing: 1px;
+}
+
+.main-section {
+    margin-bottom: 26px;
+}
+
+.main-section h2 {
+    font-size: 18px;
+    color: #111827;
+    border-bottom: 2px solid #0284c7;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 14px;
+}
+
+.main-section h2 i {
+    color: #0284c7;
+    margin-right: 6px;
+}
+
+.timeline-item {
+    margin-bottom: 16px;
+    padding-left: 12px;
+    border-left: 2px solid #bae6fd;
+}
+
+.timeline-item .time {
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #0284c7;
+    margin-bottom: 3px;
+}
+
+.timeline-item h3 {
+    font-size: 15.5px;
+    color: #1f2937;
+    margin-bottom: 4px;
+}
+
+.timeline-item p {
+    font-size: 14px;
+    line-height: 1.55;
+    color: #4b5563;
+}
